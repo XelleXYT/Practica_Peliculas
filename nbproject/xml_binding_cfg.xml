@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<schemas xmlns='http://xml.netbeans.org/schema/JAXBWizConfig' destdir='build/generated-sources/jaxb' projectName='DOM_SAX_JAXB' version='1.0'>
+	<schema type='-xmlschema' package='codigo' name='peliculas_binding'>
+		<xjc-options>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='xml-resources/jaxb/peliculas_binding/esquemapeliculas.xsd' origLocation='../../Clase/Acceso a Datos/Trabajo Final/esquemapeliculas.xsd'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+</schemas>

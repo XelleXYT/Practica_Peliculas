@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<peliculas>
+    <pelicula duracion="112" fecha_estreno="2017" genero="Acción" subgenero="Crimen">
+        <titulo titulo_original="Baby Driver">Baby Driver</titulo>
+        <director>Edgar Wright</director>
+        <escritor>Edgar Wright</escritor>
+        <actores>
+            <actor personaje="Baby">Ansel Elgort</actor>
+            <actor personaje="Griff">Jon Bernthal</actor>
+            <actor personaje="Debora">Lily James</actor>
+        </actores>
+    </pelicula>
+    <pelicula duracion="112" fecha_estreno="2010" genero="Acción" subgenero="Comedia">
+        <titulo titulo_original="Scott Pilgrim vs. the World">Scott Pilgrim contra el mundo</titulo>
+        <director>Edgar Wright</director>
+        <escritor>Bryan Lee O'Malley</escritor>
+        <actores>
+            <actor personaje="Scott Pilgrim">Michael Cera</actor>
+            <actor personaje="Ramona Flowers">Mary Elizabeth Winstead</actor>
+            <actor personaje="Stacey Pilgrim">Anna Kendrick</actor>
+        </actores>
+    </pelicula>
+    <pelicula duracion="89" fecha_estreno="2014" genero="Acción" subgenero="Ciencia Ficción">
+        <titulo titulo_original="Lucy">Lucy</titulo>
+        <director>Luc Besson</director>
+        <escritor>Luc Besson</escritor>
+        <actores>
+            <actor personaje="Lucy">Scarlett Johansson</actor>
+            <actor personaje="Profesor Norman">Morgan Freeman</actor>
+            <actor personaje="Mr. Jang">Min-sik Choi</actor>
+        </actores>
+    </pelicula>
+    <pelicula duracion="88" fecha_estreno="2009" genero="Comedia" subgenero="Terror">
+        <titulo titulo_original="Zombieland">Bienvenidos a Zombieland</titulo>
+        <director>Ruben Fleisher</director>
+        <escritor>Rhett Reese</escritor>
+        <actores>
+            <actor personaje="Columbus">Jesse Eisenberg</actor>
+            <actor personaje="Tallahassee">Woody Harrelson</actor>
+            <actor personaje="Wichita">Emma Stone</actor>
+        </actores>
+    </pelicula>
+    <pelicula duracion="128" fecha_estreno="2016" genero="Drama" subgenero="Musical">
+        <titulo titulo_original="La La Land">La ciudad de las estrellas (La La Land)</titulo>
+        <director>Damien Chazelle</director>
+        <escritor>Damien Chazelle</escritor>
+        <actores>
+            <actor personaje="Sebastian">Ryan Gosling</actor>
+            <actor personaje="Mia">Emma Stone</actor>
+            <actor personaje="Famous Actress">Amiée Conn</actor>
+        </actores>
+    </pelicula>
+</peliculas>

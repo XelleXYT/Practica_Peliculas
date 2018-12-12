@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">           
+  <xsd:element name="peliculas">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="pelicula" maxOccurs="unbounded" minOccurs="0">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="titulo">
+                <xsd:complexType>
+                  <xsd:simpleContent>
+                    <xsd:extension base="xsd:string">
+                      <xsd:attribute type="xsd:string" name="titulo_original"/>
+                    </xsd:extension>
+                  </xsd:simpleContent>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element type="xsd:string" name="director"/>
+              <xsd:element type="xsd:string" name="escritor"/>
+              <xsd:element name="actores">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="actor" maxOccurs="unbounded" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:simpleContent>
+                          <xsd:extension base="xsd:string">
+                            <xsd:attribute type="xsd:string" name="personaje"/>
+                          </xsd:extension>
+                        </xsd:simpleContent>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute type="xsd:string" name="duracion"/>
+			<xsd:attribute type="xsd:string" name="fecha_estreno"/>
+            <xsd:attribute type="xsd:string" name="genero"/>
+            <xsd:attribute type="xsd:string" name="subgenero"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

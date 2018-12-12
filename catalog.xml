@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/XelleX/Documents/NetBeansProjects/DOM_SAX_JAXB/../../Clase/Acceso%20a%20Datos/LibrosEsquema.xsd" uri="xml-resources/jaxb/javalibros_binding/LibrosEsquema.xsd"/>
+    <system systemId="file:/C:/Users/XelleX/Documents/NetBeansProjects/Practica_Peliculas/../../Clase/Acceso%20a%20Datos/Trabajo%20Final/esquemapeliculas.xsd" uri="xml-resources/jaxb/peliculas_binding/esquemapeliculas.xsd"/>
+</catalog>
